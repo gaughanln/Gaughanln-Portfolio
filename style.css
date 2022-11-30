@@ -1,91 +1,117 @@
-html
 body {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 	/* height: 100vh;
   width: 100vw; */
-  background:linear-gradient(#fceb4c, #fd9703);
+	background: linear-gradient(#fceb4c, #fd9703);
 }
 
-/* body {
-  height: 100vh;
-  width: 100vw;
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-* {
-  box-sizing: border-box;
-} */
+
+header {
+	display: flex;
+	align-items: center;
+	width: 5%;
+}
 
 /* Nav bar styling */
 .nav-bar ul li {
-  display: block;
 	list-style-type: none;
 	text-align: center;
 	padding: 10px;
-	/* transform-style: rotate(270deg); */
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	text-orientation: sideways-right;
+	transform-style: rotate(270deg);
 }
 
 /* nav bar font */
-a{
+ul li a {
 	text-decoration: none;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	color: black;
+	font-size: 20px;
 }
-a:hover{
+
+a:hover {
 	color: #4a4848;
 }
 
+section {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
 
 /* How do i get it to start at the top of the page */
 .black-box {
-	display: flex;
-	flex-flow: column;
-	flex-wrap: nowrap;
-  margin: 75px;
-  padding: 15px;
+	/* position: relative; */
+	margin-left: 0px;
+	padding: 15px;
 	background-color: black;
-	width: 350px;
-	height: 900px;
+	/* width: 400px; */
+	height: 100vh;
 }
 
 /* Hey, hi. I'm */
 h1 {
 	font-size: 30px;
 	color: pink;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Lindsey */
-h2{
-	font-family: 'Chewy', cursive;
+h2 {
+	font-family: "Chewy", cursive;
 	color: green;
 	font-size: larger;
 }
 
 /* Gaughan */
-h3{
-	font-family: 'Chewy', cursive;
+h3 {
+	font-family: "Chewy", cursive;
 	color: white;
 	font-size: larger;
 }
 
-
-
 p {
-	color:aliceblue
-	font-family: 'Roboto Condensed', sans-serif;
+	color: aliceblue;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 /* need to center wihtin box and background.
 was working ust fine and now it's not???
 also, should i size in css or is it ok in html? */
 img {
-	float: right;
-	height: 200px;
-	width: 200px;
+	/* position: absolute;
+	top: 450px;
+	left: 500px; */
+	height: 300px;
+	width: 300px;
+	align-self: center;
 }
 
+aside {
+	align-self: center;
+	margin-right: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	right: 0px;
+	width: 50%;
 
+}
 
+.projects-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 750px;
+}
 
+.projects {
+	list-style-type: none;
+}
