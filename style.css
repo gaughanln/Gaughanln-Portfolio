@@ -49,7 +49,7 @@ section {
 /* How do i get it to start at the top of the page */
 .black-box {
 	/* position: relative; */
-	margin-left: 0px;
+	margin-left: 8px;
 	padding: 15px;
 	background-color: black;
 	/* width: 400px; */
@@ -58,23 +58,25 @@ section {
 
 /* Hey, hi. I'm */
 h1 {
-	font-size: 30px;
-	color: pink;
+	font-size: 70px;
+	color: white;
 	font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Lindsey */
 h2 {
 	font-family: "Chewy", cursive;
-	color: green;
-	font-size: larger;
+	color: #fd9703;
+	font-size: 100px;
+	margin-bottom: 5px;
 }
 
 /* Gaughan */
 h3 {
 	font-family: "Chewy", cursive;
 	color: white;
-	font-size: larger;
+	font-size: 100px;
+	margin-top: -80px;
 }
 
 p {
@@ -82,9 +84,7 @@ p {
 	font-family: "Roboto Condensed", sans-serif;
 }
 
-/* need to center wihtin box and background.
-was working ust fine and now it's not???
-also, should i size in css or is it ok in html? */
+
 img {
 	/* position: absolute;
 	top: 450px;
