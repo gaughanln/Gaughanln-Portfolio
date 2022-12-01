@@ -5,9 +5,9 @@ body {
 }
 
 main {
-  display: flex;
+  display:inline-flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
 }
 
 /* photo + nav bar */
@@ -118,7 +118,6 @@ p {
 .projects ul li a {
   list-style-type: none;
   color: #fd9703;
-	/* margin-left: 15px; */
 }
 
 .projects ul li a:hover {
@@ -131,7 +130,7 @@ p {
    flex-direction: column-reverse;
   }
 	aside {
-		display: block;
+		display: flex;
 		flex-direction: column;
 		float: none;
 		width: 100%;
