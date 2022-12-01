@@ -5,9 +5,9 @@ body {
 }
 
 main {
-  display:inline-flex;
+  display:flex;
   flex-direction: row;
-  align-items: center;
+  align-items: space-around;
 }
 
 /* photo + nav bar */
@@ -129,11 +129,11 @@ p {
   header {
    flex-direction: column-reverse;
   }
-	aside {
+	main {
 		display: flex;
 		flex-direction: column;
-		float: none;
-		width: 100%;
+		/* float: none;
+		width: 100%; */
 	}
 
 }
