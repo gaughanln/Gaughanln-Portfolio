@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  display:flex;
+  /* display:flex; */
   flex-direction: row;
   align-items: space-around;
 }
@@ -21,8 +21,8 @@ header {
 
 /* photo */
 img {
-  max-height: 600px;
-  max-width: 394px;
+  max-height: 500px;
+  max-width: 329px;
 	}
 
 /* Navigation bar below photo */
@@ -30,7 +30,7 @@ img {
   display: inline;
   list-style-type: none;
   text-align: center;
-  padding: 10px;
+  /* padding: 2px; */
 	/* font-size: 20px; */
 }
 
@@ -51,14 +51,17 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  float: right;
+  /* float: right; */
 }
+
+/* .black-box-contents {
+	flex-wrap: wrap;
+} */
 
 .black-box {
   padding: 15px;
   background-color: #171616;
-  height: 100vh;
-  float: right;
+	/* float: right; */
 }
 
 /* Hey, hi. I'm */
