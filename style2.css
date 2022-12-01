@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: linear-gradient(#fceb4c, #fd9703);
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* photo + nav bar */
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 75px;
+	float: left;
+}
+
+/* photo */
+img {
+	max-height: 600px;
+	max-width: 394px;
+}
+
+/* Navigation bar below photo */
+.nav-bar ul li {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+}
+
+/* nav bar font */
+ul li a {
+	text-decoration: none;
+	font-family: "Roboto Condensed", sans-serif;
+	color: black;
+	font-size: 20px;
+}
+
+a:hover {
+	color: #4a4848;
+}
+
+/* intro + project links */
+.black-box-contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	float: right;
+	}
+
+.black-box {
+	margin-left: 8px;
+	padding: 15px;
+	background-color: #171616;
+	height: 100vh;
+}
+
+/* Hey, hi. I'm */
+h1 {
+	font-size: 60px;
+	color: white;
+	font-family: "Roboto Condensed", sans-serif;
+	margin-top: 50px;
+	margin-bottom: -80px;
+	margin-left: 20px;
+}
+
+/* Lindsey */
+h2 {
+	font-family: 'Amatic SC', cursive;
+
+	color: #fd9703;
+	font-size: 100px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+/* Gaughan */
+h3 {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 100px;
+	margin-top: -50px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+}
+
+/* Projects */
+h4 {
+	font-size: 36px;
+	color: white;
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: -10px;
+}
+
+p {
+	color: aliceblue;
+	font-family: "Roboto Condensed", sans-serif;
+	margin-left: 10px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.projects ul li {
+	list-style-type: none;
+	color: aliceblue;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.projects ul li a {
+	list-style-type: none;
+	color: #fd9703;
+}
+
+.projects ul li a:hover {
+	color: #fdc329;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+  header {
+		display: flex;
+    flex-direction: column-reverse;
+  }
+	.black-box-contents {	
+		float: none;
+		width: 100%;
+	}
+ 
+}
