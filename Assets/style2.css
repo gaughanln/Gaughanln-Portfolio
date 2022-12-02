@@ -127,6 +127,8 @@ p {
 	color: #fdc329;
 }
 
+/* what are common sizes to use for MQ - maybe ask BCS or katherine if she replies on slack */
+
 /* media query */
 @media screen and (max-width: 768px) {
   header {
