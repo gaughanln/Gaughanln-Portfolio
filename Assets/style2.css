@@ -4,11 +4,11 @@ body {
 	background: linear-gradient(#fceb4c, #fd9703);
 }
 
-main {
+/* main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-}
+} */
 
 /* photo + nav bar */
 header {
@@ -21,8 +21,8 @@ header {
 
 /* photo */
 img {
-	max-height: 600px;
-	max-width: 394px;
+	max-height: 500px;
+	max-width: 329px;
 }
 
 /* Navigation bar below photo */
@@ -48,9 +48,10 @@ a:hover {
 /* intro + project links */
 .black-box-contents {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
-	float: right;
+	/* float: right; */
 	}
 
 .black-box {
@@ -128,10 +129,10 @@ p {
   header {
 		display: flex;
     flex-direction: column-reverse;
-  }
+	}
 	.black-box-contents {	
 		float: none;
-		width: 100%;
+		width: 100vh;
 	}
  
 }
