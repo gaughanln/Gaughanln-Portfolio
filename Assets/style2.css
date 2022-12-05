@@ -1,154 +1,160 @@
 body {
-	margin: 0px;
-	padding: 0px;
-	background: linear-gradient(#fceb4c, #fd9703);
+  margin: 0px;
+  padding: 0px;
+  /* background: linear-gradient(#fceb4c, #fd9703); */
 }
-
-/* main {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-} */
 
 /* photo + nav bar */
 header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 75px;
-	margin-right: 75px;
-	float: left;
-	/* width: 30vh; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-left: 75px;
+  margin-right: 25px;
+  padding: 50px;
+  height: 132vh;
+  float: left;
+  width: 350px;
+  background: linear-gradient(#fceb4c, #fd9703);
+  /* width: 30vh; */
 }
 
 /* photo */
 img {
-	max-height: 500px;
-	max-width: 329px;
-	padding-top: 18px;
-}
-
-/* Navigation bar below photo */
-.nav-bar ul li {
-	display: inline;
-	list-style-type: none;
-	text-align: center;
-}
-
-/* nav bar font */
-ul li a {
-	text-decoration: none;
-	font-family: "Roboto Condensed", sans-serif;
-	color: black;
-	font-size: 20px;
-}
-
-a:hover {
-	color: #4a4848;
+  max-height: 500px;
+  max-width: 329px;
 }
 
 /* intro + project links */
 .black-box-contents {
-	/* display: flex; */
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
-	/* float: right; */
-	}
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #171616;
+}
+
+.nav-bar {
+  /* background-color: #171616; */
+  padding-top: 5px;
+  word-spacing: 20px;
+}
+
+/* Navigation bar below photo */
+.nav-bar ul li {
+  display: inline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* nav bar font */
+ul li a {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #171616;
+  word-spacing: 15px;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #4a4848;
+}
 
 .black-box {
-	padding-bottom: 40px;
-	padding-top: 10px;
-	background-color: #171616;
-	align-items: center;
-	/* height: 100vh; */
+  padding-bottom: 40px;
+  padding-top: 10px;
+  background-color: #171616;
+  align-items: center;
+  /* height: 100vh; */
 }
 
 /* Hey, hi. I'm */
 h1 {
-	font-size: 60px;
-	color: white;
-	font-family: "Roboto Condensed", sans-serif;
-	margin-top: 50px;
-	margin-bottom: -80px;
-	margin-left: 20px;
+  font-size: 60px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 50px;
+  margin-bottom: -80px;
+  margin-left: 20px;
 }
 
 /* Lindsey */
 h2 {
-	font-family: 'Amatic SC', cursive;
-
-	color: #fd9703;
-	font-size: 100px;
-	margin-bottom: 5px;
-	margin-left: 20px;
+  font-family: "Amatic SC", cursive;
+  color: #fd9703;
+  font-size: 150px;
+  margin-bottom: 5px;
 }
 
 /* Gaughan */
 h3 {
-	font-family: 'Amatic SC', cursive;
-	color: white;
-	font-size: 100px;
-	margin-top: -50px;
-	margin-bottom: 40px;
-	margin-left: 50px;
+  font-family: "Amatic SC", cursive;
+  color: white;
+  font-size: 150px;
+  margin-top: -50px;
+  margin-bottom: 0px;
 }
 
 .projects-main {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: row;	
-	padding: 15px;
-	height: 100vh;
-		/* height: 100vh; */
-		/* width: 70vw; */
-	}
-
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 15px;
+  height: 100vh;
+  /* height: 100vh; */
+  /* width: 70vw; */
+}
 
 /* Projects */
 h4 {
-	font-size: 45px;
-	color: black;
-	font-family: "Roboto Condensed", sans-serif;
-	text-align: center;
-	padding-top: 30px;
-
+  font-size: 45px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  /* padding-top: 30px; */
 }
 
 p {
-	color: aliceblue;
-	font-family: "Roboto Condensed", sans-serif;
-	margin-left: 10px;
+  color: aliceblue;
+  font-family: "Roboto Condensed", sans-serif;
+  /* margin-left: 10px;
 	margin-top: -10px;
-	margin-bottom: -10px;
-	font-size: 20px;
-	
+	margin-bottom: -10px; */
+  font-size: 30px;
+}
+
+.projects-main {
+  padding: 0px;
 }
 
 .projects {
-	margin-bottom: 20px;
-	margin: 10px;
-	/* padding: 20px; */
-	padding-right: 30px;
-	background-color: #4a4848;
-	height: 700px;
-	font-family: "Roboto Condensed", sans-serif;
-	width: 400px;
+  margin-bottom: 20px;
+  margin: 10px;
+  /* padding: 20px; */
+  padding-right: 30px;
+  background-color: #171616;
+  height: 700px;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 400px;
 }
 
 .projects ul li {
-	list-style-type: none;
-	color: aliceblue;
-	font-family: "Roboto Condensed", sans-serif;
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .projects ul li a {
-	list-style-type: none;
-	color: #fd9703;
+  list-style-type: none;
+  color: #fd9703;
 }
 
 .projects ul li a:hover {
-	color: #fdc329;
+  color: #4a4848;
 }
 
 /* what are common sizes to use for MQ - maybe ask BCS or katherine if she replies on slack */
@@ -156,26 +162,38 @@ p {
 /* media query */
 @media screen and (max-width: 768px) {
   header {
-		display: flex;
-    flex-direction: column-reverse;
-		margin-left: 110px;
-		color: white;
-	}
+    /* display: flex;
+    flex-direction: column-reverse; */
+    margin-left: 0px;
+    color: white;
+    height: auto;
+    width: 100%;
+    /* align-items: center; */
+  }
 
-	.black-box-contents {	
-		float: none;
-		width: 100%;
+  .black-box {
+    width: 115%;
+    padding-left: 20px;
+  }
+
+	h1,
+	h2,
+	h3 {
 		text-align: center;
+		margin-left: -15%;
 	}
-h4 {
-	text-align: center;
-	margin-left: 25px;
-}
-.projects-main {
-	display: flex;
-	flex-direction: column;	
-}
 
-.nav-bar ul li a {
-	color: #fd9703;
+  h4 {
+    text-align: center;
+    margin: 0px;
+    margin-left: 8%;
+    /* margin-left: 25px; */
+  }
+  .projects-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-left: 15%;
+  }
 }
