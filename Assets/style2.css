@@ -183,19 +183,6 @@ h4 {
 
 
 
-/* ul li  {
-	display: inline;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  list-style-type: none;
-  text-align: center;
-	font-size: 16px;
-	color:#171616; 
-	list-style-type: none; */
-
-
-
 
 
 
@@ -234,4 +221,49 @@ h4 {
     align-content: stretch;
     margin-left: 15%;
   }
+}
+
+
+/* media query */
+@media screen and (max-width: 391px) {
+  header {
+    margin: 0px;
+    color: white;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .black-box {
+    width: 100vw;
+    padding-left: 20px;
+    justify-content: center;
+  }
+.nav-bar{
+justify-content: center;
+}
+
+	h1,
+	h2,
+	h3 {
+		text-align: center;
+    justify-content: center;
+	}
+
+  h4 {
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+  }
+  .projects-main {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    /* flex-direction: column; */
+    }
+
+    .contact{
+      padding: 5px;
+    }
+   
 }
