@@ -15,7 +15,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 75px;
+	margin-left: 75px;
+	margin-right: 75px;
 	float: left;
 	/* width: 30vh; */
 }
@@ -24,6 +25,7 @@ header {
 img {
 	max-height: 500px;
 	max-width: 329px;
+	padding-top: 18px;
 }
 
 /* Navigation bar below photo */
@@ -31,7 +33,6 @@ img {
 	display: inline;
 	list-style-type: none;
 	text-align: center;
-	/* padding: 10px; */
 }
 
 /* nav bar font */
@@ -48,7 +49,7 @@ a:hover {
 
 /* intro + project links */
 .black-box-contents {
-	display: flex;
+	/* display: flex; */
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
@@ -56,10 +57,11 @@ a:hover {
 	}
 
 .black-box {
-	padding: 15px;
+	padding-bottom: 40px;
+	padding-top: 10px;
 	background-color: #171616;
-	height: 100vh;
-	/* width: 70vw; */
+	align-items: center;
+	/* height: 100vh; */
 }
 
 /* Hey, hi. I'm */
@@ -92,14 +94,25 @@ h3 {
 	margin-left: 50px;
 }
 
+.projects-main {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;	
+	padding: 15px;
+	height: 100vh;
+		/* height: 100vh; */
+		/* width: 70vw; */
+	}
+
+
 /* Projects */
 h4 {
-	font-size: 36px;
-	color: white;
+	font-size: 45px;
+	color: black;
 	font-family: "Roboto Condensed", sans-serif;
-	text-align: left;
-	margin-left: 10px;
-	margin-bottom: -10px;
+	text-align: center;
+	padding-top: 30px;
+
 }
 
 p {
@@ -110,6 +123,17 @@ p {
 	margin-bottom: -10px;
 	font-size: 20px;
 	
+}
+
+.projects {
+	margin-bottom: 20px;
+	margin: 10px;
+	/* padding: 20px; */
+	padding-right: 30px;
+	background-color: #4a4848;
+	height: 700px;
+	font-family: "Roboto Condensed", sans-serif;
+	width: 400px;
 }
 
 .projects ul li {
@@ -135,6 +159,7 @@ p {
 		display: flex;
     flex-direction: column-reverse;
 		margin-left: 110px;
+		color: white;
 	}
 
 	.black-box-contents {	
@@ -146,5 +171,11 @@ h4 {
 	text-align: center;
 	margin-left: 25px;
 }
- 
+.projects-main {
+	display: flex;
+	flex-direction: column;	
+}
+
+.nav-bar ul li a {
+	color: #fd9703;
 }
