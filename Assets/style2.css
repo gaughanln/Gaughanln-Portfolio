@@ -248,7 +248,12 @@ justify-content: center;
 	h3 {
 		text-align: center;
     justify-content: center;
+    padding-left: 40px;
 	}
+
+.img {
+  padding: none;
+}
 
   h4 {
     text-align: center;
@@ -257,12 +262,13 @@ justify-content: center;
   }
   .projects-main {
     display: flex;
-    margin-left: 0px;
+    margin-left: -15px;
     justify-content: center;
-    /* flex-direction: column; */
     }
 
+    /* stack contact info */
     .contact{
+      display: inline-block;
       padding: 5px;
     }
    
