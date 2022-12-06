@@ -2,7 +2,7 @@
 
 ## Description
 
-I've created my very first portfolio using HTML & CSS. Per the requirements of the assignment, you'll find the following:
+I've created my first portfolio using HTML & CSS. Per the requirements of the assignment, you'll find the following:
 
 * Sample Work
 * Photo of myself + about me
@@ -11,9 +11,11 @@ I've created my very first portfolio using HTML & CSS. Per the requirements of t
 * A responsive layout
 
 ### End Product 
-Below is a screenshot of what my first portfolio looks like.
+Below is a screenshot of what my portfolio looks like.
 
-<img src="./assets/gaughanln.png" alt ="screenshot of Lindsey Gaughan finished portfolio">
+<!-- <img src="./Assets/gaughanln.png" alt ="screenshot of Lindsey Gaughan finished portfolio"> -->
+
+![screenshot of Lindsey Gaughan finished portfolio](Assets/gaughanln.png)
 
 ### Deployment
 Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio/#project1"> live website
@@ -21,4 +23,4 @@ Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio
 ### Contributing
 Lindsey Gaughan (Me!)
 
-<img src="assets/gaughanln1.jpg" alt="Lindsey Gaughan - Me!" style="width:200px;" /> 
+<img src="./Assets/gaughanln1.jpg" alt="Lindsey Gaughan - Me!" style="width:200px;" /> 
