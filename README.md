@@ -21,4 +21,4 @@ Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio
 ### Contributing
 Lindsey Gaughan (Me!)
 
-<img src="./assets/gaughanln1.jpg" alt="Lindsey Gaughan - Me!" style="width:200px;" /> 
+<img src="assets/gaughanln1.jpg" alt="Lindsey Gaughan - Me!" style="width:200px;" /> 
