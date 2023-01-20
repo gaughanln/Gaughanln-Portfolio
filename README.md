@@ -18,7 +18,7 @@ Below is a screenshot of what my portfolio looks like.
 ![screenshot of Lindsey Gaughan finished portfolio](Assets/gaughanln.png)
 
 ### Deployment
-Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio/#project1"> live website
+Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio/#project1"> live website 
 
 ### Contributing
 Lindsey Gaughan (Me!)
