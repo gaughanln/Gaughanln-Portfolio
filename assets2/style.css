@@ -1,0 +1,122 @@
+:root {
+  --background-image: url("./background2.png");
+  --background: #e8dcc4;
+  --dark-red: #ab3029;
+  --red: #e25031;
+  --orange: #ef7918;
+  --yellow: #efa72e;
+  --light-blue: #79bea9;
+  --dark-blue: #568bab;
+  --text-shadow:#efa72e;
+  
+}
+
+body{
+  background: var(--background-image);
+  /* background-position: center -15rem; */
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+.about {
+  background-color: var(--light-blue);
+  padding: 20px;
+  color: var(--background);
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--background);
+  }
+
+  .project-1{
+    background-color: var(--yellow);
+    padding: 20px;
+  }
+
+  .project-2{
+    background-color: var(--orange);
+    padding: 20px;
+  }
+
+  .project-3{
+    background-color: var(--red);
+    padding: 20px;
+  }
+
+
+  .project-image {
+max-width: 200px;
+  }
+
+  h1 {
+    font-size:8rem;
+    text-shadow:
+    0 1px 0px var(--text-shadow),
+    1px 0 0px var(--text-shadow),
+    1px 2px 1px var(--text-shadow),
+    2px 1px 1px var(--text-shadow),
+    2px 3px 2px var(--text-shadow),
+    3px 2px 2px var(--text-shadow),
+    3px 4px 2px var(--text-shadow),
+    4px 3px 3px var(--text-shadow),
+    4px 5px 3px var(--text-shadow),
+    5px 4px 2px var(--text-shadow),
+    5px 6px 2px var(--text-shadow),
+    6px 5px 2px var(--text-shadow),
+    6px 7px 1px var(--text-shadow),
+    7px 6px 1px var(--text-shadow),
+    7px 8px 0px var(--text-shadow),
+    8px 7px 0px var(--text-shadow);  
+    color: var(--red);
+  margin-top: 30rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .header-img {
+    max-height: 550px;
+    position: center;
+    /* max-width: 329px; */
+    border: var(--light-blue);
+    margin-top:12rem;
+  }
+
+a {
+  font-weight: bold;
+  color: var(--light-blue);
+  font-size: 2.5rem;
+  padding: 15px;
+}
+
+  .left {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .right {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  
+
