@@ -10,8 +10,10 @@
     />
 
     <!--Materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
     <link
       type="text/css"
@@ -27,29 +29,44 @@
     <title>Lindsey Gaughan Portfolio</title>
   </head>
   <body>
- 
-<!-- name and photo -->
-<div class="container">
-    <div class="row">
-    <div class="col s3"><h1>Lindsey</h1></div>
-    <!-- <div class="col s1"></div> -->
-    <div class="col s4"><img src="./assets2/gaughanln-round.png" class= "header-img" alt="Lindsey Gaughan" /></div>
-    <div class="col s3"><h1>Gaughan</h1></div>
-</div>
-</div>
-<!-- nav bar items -->
-<div class="nav-bar">
-<div class="left">
-  <a href="#about"> About</a>
-  <a href="#contact"> Contact </a>
-</div>
+    <!-- name and photo -->
+    <div class="container">
+      <div class="row">
+        <div class="col s4"><h1 class="lift">Lindsey</h1>
+          <div class="row right-align">
+            <a href="#about"> About</a>
+            <a href="#contact"> Contact </a>
+          </div>
+        </div>
+        <!-- <div class="col s1"></div> -->
+        <div class="col s4">
+          <img
+            src="./assets2/gaughanln-round.png"
+            class="header-img responsive-img"
+            alt="Lindsey Gaughan"
+          />
+        </div>
+        <div class="col s4"><h1 class="lift">Gaughan</h1>
+          <div class="row left-align">
+            <a href="https://github.com/gaughanln">Github</a>
+            <a href="#project1"> Projects </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar items -->
+    <!-- <div class="nav-bar">
+      <div class="left">
+        <a href="#about"> About</a>
+        <a href="#contact"> Contact </a>
+      </div>
 
-<div class="right">
-  <a href="https://github.com/gaughanln">Github</a>
-  <a href="#project1"> Projects </a>
-</div>
-</div>
-<!-- 
+      <div class="right">
+        <a href="https://github.com/gaughanln">Github</a>
+        <a href="#project1"> Projects </a>
+      </div>
+    </div> -->
+    <!-- 
   <nav class="card-panel transparent z-depth-0">
     <div class="row">
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -63,54 +80,58 @@
     </div>
   </nav> -->
 
-  <!-- <ul class="sidenav" id="mobile-demo">
+    <!-- <ul class="sidenav" id="mobile-demo">
     <li><a href="#about"> About</a></li>
     <li><a href="#contact"> Contact </a></li>
     <li><a href="https://github.com/gaughanln">Github</a></li>
     <li><a href="#project1"> Projects </a></li>
   </ul> -->
 
+    <!-- about me -->
+    <div class="row">
+    <div class="about col s6 push-s3">
+      <p class="description">
+        I am a recent full-stack bootcamp graduate looking for to transition my
+        career from marketing to web development /software engineering.
+      </p>
+    </div>
+    </div>
 
-<!-- about me -->
-<div id="about col s4 ">
-<p class="about center">I am a recent full-stack bootcamp graduate looking for to transition my career from marketing to web development /software engineering.</p>
-</div>
+    <!-- projects -->
+    <div class="container">
+      <div class="project-1 col s12 m4">
+        <h2>CityBike API</h2>
+        <p>This was our first group project.</p>
+        <a href="https://lemondropping.github.io/city-bike-proj/">
+          <img
+            src="./Assets/CityBike1.png"
+            class="project-image"
+            alt="citybike finder website demo"
+        /></a>
+      </div>
 
+      <div class="project-2 col s12 m4">
+        <h2>CityBike API</h2>
+        <p>This was our first group project.</p>
+        <a href="https://lemondropping.github.io/city-bike-proj/">
+          <img
+            src="./Assets/CityBike1.png"
+            class="project-image"
+            alt="citybike finder website demo"
+        /></a>
+      </div>
 
-
-<!-- projects -->
-<div class="container">
-
-  <div class="project-1 col s12 m4">
-    <h2>CityBike API</h2>
-      <p>This was our first group project. </p>
-        <a href="https://lemondropping.github.io/city-bike-proj/"> <img src="./Assets/CityBike1.png" class="project-image" alt="citybike finder website demo"/></a>
-  </div>
-
-  <div class="project-2 col s12 m4">
-    <h2>CityBike API</h2>
-      <p>This was our first group project. </p>
-        <a href="https://lemondropping.github.io/city-bike-proj/"> <img src="./Assets/CityBike1.png" class="project-image"
-          alt="citybike finder website demo"/></a>
-  </div>
-
-  <div class="project-3 col s12 m4">
-    <h2>CityBike API</h2>
-      <p>This was our first group project. </p>
-        <a href="https://lemondropping.github.io/city-bike-proj/"> <img src="./Assets/CityBike1.png" class="project-image" alt="citybike finder website demo"/></a>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
+      <div class="project-3 col s12 m4">
+        <h2>CityBike API</h2>
+        <p>This was our first group project.</p>
+        <a href="https://lemondropping.github.io/city-bike-proj/">
+          <img
+            src="./Assets/CityBike1.png"
+            class="project-image"
+            alt="citybike finder website demo"
+        /></a>
+      </div>
+    </div>
 
     <!--Materialize for JavaScript-->
     <script type="text/javascript" src="./assets2/materialize.min.js"></script>
