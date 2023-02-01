@@ -27,36 +27,44 @@ body {
   color: var(--background);
   font-size: 20px;
   word-wrap: break-word;
+  /* border-radius: 8%; */
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-}
+  width: 100%}
 
 h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: var(--background);
 }
 
+.description {
+  text-align: center;
+}
+
 .project-1 {
   background-color: var(--yellow);
   padding: 20px;
+  border-radius: 8%;
 }
 
 .project-2 {
   background-color: var(--orange);
   padding: 20px;
+  border-radius: 8%;
 }
 
 .project-3 {
   background-color: var(--red);
   padding: 20px;
+  border-radius: 8%;
 }
 
 .project-image {
   max-width: 200px;
+  justify-content: center;
 }
 
 h1 {
