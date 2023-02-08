@@ -112,3 +112,12 @@ a {
   text-align: center;
   color: white;
 }
+
+footer {
+  margin-top: 2rem;
+}
+
+.color1 {
+  background-color: var(--dark-blue);
+}
+
