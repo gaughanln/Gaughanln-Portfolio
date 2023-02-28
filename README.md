@@ -13,14 +13,13 @@ I've created my first portfolio using HTML & CSS. Per the requirements of the as
 ### End Product 
 Below is a screenshot of what my portfolio looks like.
 
-<!-- <img src="./Assets/gaughanln.png" alt ="screenshot of Lindsey Gaughan finished portfolio"> -->
+![screenshot of Lindsey Gaughan finished portfolio](./assets2/portfolioScreenshot.png)
 
-![screenshot of Lindsey Gaughan finished portfolio](Assets/gaughanln.png)
+## Deployment
 
-### Deployment
-Here is the link to the <a href="https://gaughanln.github.io/Gaughanln-Portfolio/#project1"> live website 
+Here is the [link](https://gaughanln.github.io/Gaughanln-Portfolio/#project1) to the live website
 
-### Contributing
+## Contributing
 Lindsey Gaughan (Me!)
 
-<img src="./Assets/gaughanln1.jpg" alt="Lindsey Gaughan - Me!" style="width:200px;" /> 
+![Lindsey Gaughan](./assets2/gaughanln-round.png)
